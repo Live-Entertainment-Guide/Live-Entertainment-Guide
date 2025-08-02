@@ -11,6 +11,9 @@
 				margin: 0;
 				padding: 0;
 				color: #333;
+				max-width: 960px;
+				margin: 0 auto;
+				padding: 0;
 			}
 			header {
 				background-color: #222;
@@ -20,7 +23,7 @@
 			}
 			main {
 				max-width: 900px;
-				margin: 2em auto;
+				margin: 2em auto 1em;
 				padding: 2em;
 				background: white;
 				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -35,15 +38,34 @@
 			a:hover {
 				text-decoration: underline;
 			}
+			.logo {
+				margin: 0;
+				padding: 0;
+				display: block;
+				line-height: 0;
+			}
+			.logo img {
+				width: 100%;
+				height: auto;
+				display: block;
+				margin: 0;
+				padding: 0;
+			}
 			footer {
 				text-align: center;
-				padding: 2em;
+				padding: 1em;
 				color: #999;
 				font-size: 0.9em;
 			}
 		</style>
 	</head>
 	<body>
+		<div class="logo">
+			<img
+				src="images/live-entertainment-guide.png"
+				alt="Live Entertainment Guide Logo"
+			/>
+		</div>
 		<header>
 			<h1>Live Entertainment Guide</h1>
 			<p>Discover the best live experiences in the U.S.</p>
